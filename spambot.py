@@ -4,7 +4,7 @@ import time
 spam_cycle = 0
 
 while spam_cycle <= 24:
-    spam_script = input("What script do you want to use to spam people with?: ")
+    spam_script = input("enter script you want to use to spam people with: ")
     time.sleep(3)
     f = open(spam_script, "r")
     for word in f:
