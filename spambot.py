@@ -23,7 +23,6 @@ while spam_cycle <= 24:
     f = open(spam_script, "r")
     for word in f:
         time.sleep(float(0.20))
-        pyautogui.typewrite("@everyone ")
         pyautogui.typewrite(word, interval = 0.0225)
         pyautogui.press("enter")
     spam_cycle = spam_cycle + 1
